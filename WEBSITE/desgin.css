@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Urbanist:wght@300&display=swap');
+
+*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+}
+
+body{
+	background-image:url("sign.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.signin{
+		position:absolute;
+		top:10%;
+		left:43.5%;
+		color:#3a3c4b;
+		font-weight:10px;
+		font-size:40px;
+		font-family: 'Lobster', cursive;
+}
+
+center{
+		font-family: 'Urbanist', sans-serif;
+}
+
+.container1{
+		box-sizing:border-box;
+		position:relative;
+		top:80px;
+		width:240px;
+		height:160px;
+		border:1px dotted #1f212348;
+		border-radius:10px;
+		padding:10px;
+		font-size:13px;
+		transition-property:background;
+		transition-duration:0.5s;
+		transition-timing-function:ease-in-out;
+}
+
+.container1:hover{
+		background:#383a3e27;
+		border:none;
+		border-radius:10px;
+		box-shadow:0 7px 7px 0 #1f212348, 0 10px 10px 0 #1f212348;
+}
+
+.box{
+		outline:none;
+		border:1px solid #383a3e;
+		border-radius:10px;
+		margin:10px 5px;
+		padding:6px;
+}
+.box:hover{
+			border:1.2px solid #0075ff;
+			box-shadow:0 7px 7px 0 #1f212348, 0 10px 10px 0 #1f212348;
+}
+
+.box:focus{
+		border-top:none;
+		border-left:none;
+		border-bottom:3px solid #0075ff;
+		border-right:none;
+		border-radius:5px;
+		transition-duration:0.2s;
+		transition-timing-function:ease-out;
+}
+
+.loginbtn{
+		width:100px;
+		height:30px;
+		background:white;
+		border:1px solid #383a3e;
+		border-radius:10px;
+		outline:none;
+		margin:10px 5px;
+				
+}
+
+.loginbtn:hover{
+		background:#0075ff;
+		border:1.2px solid #0075ff;
+		color:white;
+		font-weight:bold;
+		box-shadow:0 5px 5px 0 #1f212348, 0 7px 7px 0 #1f212348;
+}
+
+.container2{
+		position:relative;
+		top:80px;
+		width:250px;
+		height:20px;
+		padding:5px 5px;
+		font-size:10px;
+}
+
+.check{
+		position:relative;
+		right:60px;
+}
+
+.p1{
+		position:relative;
+		 bottom:4.5px;
+		right:58px;
+}
+
+.p2{
+		position:relative;
+		bottom:15px;
+		left:58px;
+		text-decoration:none;
+		 color:black;
+}
+
+.p2:hover{
+		color:#00ff2a;
+}
+
+.p3{
+		font-weight:bold;
+		text-decoration:none;
+		color:black;
+}
+
+.p3:hover{
+		color:#0075ff;
+}
+
+.bar{
+		position:relative;
+		top:3px;
+		width:240px;
+}
+
+.p4{
+		position:relative;
+		top:7px;
+}
+

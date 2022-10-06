@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+<title> REGISTER</title>
+<meta name="viewport" content="width=device-width" initial-scale="1">
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        background-image:url(source/sign.jpg) ;
+        background-attachment: fixed;
+    }
+</style>
+</head>
+<body>
+    <center>
+        <form name="mydata" action="register.php" method="POST">
+        <div class="container1">
+<h2> Donor Registration Form </h2>
+<hr width="350" align="center"/>
+
+<table width="400">
+    <tr>
+        <td height="30"> Name</td>
+        <td><input type="text" name="uname" required=""></td>
+    </tr>
+    <tr>
+        <td height="30"> Age </td>
+        <td> <input type="number" min="1" max="50" name="Age" required=""></td>
+    </tr>
+    <tr>
+        <td> Date of Birth</td>
+        <td> <input type="date" name="DOB" required=""></td>
+        </tr>
+        <tr>
+            <td> Gender </td>
+            <td>
+                <select name="gender" required="">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>              
+            </td>
+        </tr>
+        <tr>
+            <td height="30"> Mobile Number</td>
+            <td><input type="number" name="num" required=""></td>
+        </tr>
+        <tr>
+            <td> City</td>
+            <td>
+                <select name="city" required="">
+                    <option>Karur</option>
+                    <option>Dindugal</option>
+                    <option>Trichy</option>
+                    <option>Vellore</option>
+                </select>
+            
+            </td>
+        </tr>
+        <tr>
+            <td> Blood Group </td>
+            <td>
+                <select name="bloodgroup" required="">
+                    <option>O+</option>
+                    <option>B+</option>
+                    <option>O-</option>
+                    <option>B-</option>
+
+                </select>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="submit" href="#">Submit</button>
+            </td>
+           
+        </tr>
+        
+        </div>
+    </center>
+</table>
+</form>
+</body>
+</html>
